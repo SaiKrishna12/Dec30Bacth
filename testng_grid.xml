@@ -1,0 +1,14 @@
+<suite name="Grid Demo"   parallel="tests">
+  <test name="On Chrome">
+	<parameter name="browser" value="chrome"/>
+    <classes>
+		<class name="day27.DatadrivenTestingOnGrid"/>
+	</classes>
+  </test> 
+  <test name="On Firefox">
+   <parameter name="browser" value="firefox"/>
+    <classes>
+		<class name="day27.DatadrivenTestingOnGrid"/>
+	</classes>
+  </test>
+</suite> 
